@@ -1,3 +1,3 @@
-FROM NGINX:latest
-COPY . /urs/share/nginx/html
-EXPOSE 8085
+FROM nginx:latest
+COPY . /usr/share/nginx/html
+EXPOSE 80
